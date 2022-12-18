@@ -33,7 +33,7 @@
   }
   .base{
     bottom: 0;
-    width:100px;
+    width: 100px;
     height: 100px;
     background:#F7EC7D;
   }
@@ -44,26 +44,26 @@
     right: 50px;
   }
   .circle2{
-    top:70px;
+    top:50px;
     width:60px;
     height:60px;
     border-radius:50%;
     background:#AA445F;
-    outline:20px solid #E38F66;
+    border: 20px solid #E38F66;
   }
   .circle{
     width:60px;
     height:60px;
     border-radius:50%;
     background:#E38F66;
-    outline:20px solid #AA445F;
-    top:170px;
+    border: 20px solid #AA445F;
+    top:150px;
   }
   .circle1{
-    left:70px;
+    left:50px;
   }
   .circle3{
-    right:70px;
+    right:50px;
 
   }
 </style>

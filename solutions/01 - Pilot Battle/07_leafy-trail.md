@@ -10,6 +10,7 @@
 <div class ="div1"></div>
 <div class ="div2"></div>
 <div class ="div3"></div>
+
 <style>
   body{
     background:#0B2429;
@@ -23,15 +24,15 @@
 
   }
   .div1{
-    left: 19%;
+    left: 18.8%;
     background: #1A4341;
   }
   .div2 {
-    left:31%;
+    left:31.3%;
     background: #998235
   }
   .div3 {
-    left:44%;
+    left:43.8%;
     background: #F3AC3C
   }
 </style>

@@ -7,37 +7,38 @@
 ![result](./images/02_carrom.png)
 
 ```html
-<div id="a"></div>
-<div id="b"></div>
-<div id="c"></div>
-<div id="d"></div>
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
 
 <style>
   body {
-    margin: 0;
     background: #62374e;
+    display:flex;
+    justify-content:center;
   }
-  div {
-    width: 50px;
-    height: 50px;
-    background: #fdc57b;
-    display: inline-block;
+  div{
+    position:absolute;
+    width:50px;
+    height:50px;
+    background:#fdc57b;
   }
-  #a {
-    margin-top: 50px;
-    margin-left: 50px;
+  .a{
+    left:50px;
+    top:50px;
   }
-  #b {
-    margin-top: 50px;
-    margin-left: 200px;
+  .b{
+    right:50px;
+    top:50px;
   }
-  #c {
-    margin-top: 100px;
-    margin-left: 50px;
+  .c{
+    left:50px;
+    bottom:50px;
   }
-  #d {
-    margin-top: 100px;
-    margin-left: 200px;
+  .d{
+    right:50px;
+    bottom:50px;
   }
 </style>
 ```
