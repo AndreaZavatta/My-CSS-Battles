@@ -1,5 +1,6 @@
 # CSS Battle
 
+This template was created by [MarcoAntolini](https://github.com/MarcoAntolini). </br>
 Here are my solutions for some problems on [CSS Battle](https://www.cssbattle.dev).
 
 ## Battle #1 - Pilot Battle
