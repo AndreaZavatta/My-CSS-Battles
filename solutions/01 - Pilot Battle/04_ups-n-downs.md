@@ -16,32 +16,38 @@
   <div class="inner show down"></div>
 </div>
 <style>
-  body {
-    background: #62306D;
+<div class="shapedown1"></div>
+<div class="shapeup"></div>
+<div class="shapedown2"></div>
+<style>
+  body{
+    background-color: #62306D;
+    display:flex;
+    justify-content:center;
+    align-items: center;
   }
-  .wrapper {
-    width: 300px;
-    height: 200px;
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(2, 100px);
-    margin: 50px auto;
-  }
-  .inner  {
+  div {
+    position:absolute;
     width: 100px;
     height: 100px;
+    background-color:#F7EC7D;
   }
-  .show {
-    background: #F7EC7D;
+  .shapeup{
+    top:50px;
+    border-radius:50% 50% 0% 0%;
   }
-  .hide {
-    background: #62306D;
+
+  .shapedown1{
+    bottom:50px;
+    left:50px;
+    border-radius:0% 0% 50% 50%;
   }
-  .down {
-    border-radius: 0 0 50% 50%;
-  }
-  .up {
-    border-radius: 50% 50% 0 0;
+
+  .shapedown2{
+    bottom:50px;
+    right:50px;
+    border-radius:0% 0% 50% 50%;
   }
 </style>
+
 ```

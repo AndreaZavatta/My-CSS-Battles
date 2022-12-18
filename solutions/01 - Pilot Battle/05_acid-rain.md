@@ -7,32 +7,39 @@
 ![result](./images/05_acid-rain.png)
 
 ```html
-<div class="a"></div>
-<div class="b"></div>
-<div class="c"></div>
+<div class="circle"></div>
+<div class="diff-circle"></div>
+<div class="diff-circle2"></div>
 <style>
-  body {
-    background: #0B2429;
+  body{
+    background-color:#0B2429;
   }
   div {
     width: 120px;
     height: 120px;
-    position: absolute;
+    background: #dd6b4d;
   }
-  .a {
-    background: #F3AC3C;
-    border-radius: 50% 50% 50% 0;
-    margin: 22 192;
+
+  .circle{
+    position:absolute;
+    right:80px;
+    top:30px;
+    background-color:#F3AC3C;
+    border-radius: 50%
   }
-  .b {
-    background: #998235;
-    border-radius: 50% 0;
-    margin: 82 132;
+  .diff-circle{
+    position:absolute;
+    right:140px;
+    top:90px;
+    background-color:#998235;
+    border-radius: 50% 0 50% 50%
   }
-  .c {
-    background: #F3AC3C;
-    border-radius: 50% 0 50% 50%;
-    margin: 142 72;
+    .diff-circle2{
+    position:absolute;
+    right:200px;
+    top:150px;
+    background-color:#F3AC3C;
+    border-radius: 50% 0 50% 50%
   }
 </style>
 ```

@@ -7,30 +7,46 @@
 ![result](./images/03_push-button.png)
 
 ```html
-<div class="back"></div>
-<div class="front"></div>
+<div class = "rectangle"></div>
+<div class = "circle-lightblue"></div>
+<div class = "circle-blue"></div>
+<div class = "circle-yellow"></div>
 <style>
   body {
-    background: #6592CF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color:#6592CF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
-  div {
-    position: absolute;
+  div{
+    position:absolute;
   }
-  .front {
-    width: 50px;
-    height: 50px;
-    background: #EEB850;
-    border-radius: 50%;
-    border: 50px solid #243D83;
-    outline: 50px solid #6592CF;
-  }
-  .back {
+  .rectangle{
     width: 300px;
     height: 150px;
-    background: #243D83;
+    background-color: blue;
+    background-color:#243D83;
   }
+  
+  .circle-lightblue{
+    background-color: #6592CF;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%
+  }
+  .circle-blue{
+    background-color: #243D83;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%
+  }
+  .circle-yellow{
+    background-color: #EEB850;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%
+  }
+  
 </style>
+
 ```

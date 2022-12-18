@@ -7,52 +7,64 @@
 ![result](./images/10_cloaked-spirits.png)
 
 ```html
-<div class="wrapper r">
-  <div></div>
-  <div class="rect"></div>
-  <div></div>
-  <div class="rect"></div>
-  <div class="rect"></div>
-  <div class="rect"></div>
-</div>
-<div class="wrapper c">
-  <div></div>
-  <div class="circle inverted"></div>
-  <div></div>
-  <div class="circle"></div>
-  <div></div>
-  <div class="circle"></div>
-</div>
+<div class="base base1"></div>
+<div class="base2"></div>
+<div class="base base3"></div>
+<div class="circle2"></div>
+<div class="circle circle1"></div>
+<div class="circle circle3"></div>
+
+
 <style>
-  body {
-    background: #62306D;
-    margin: 0;
+  body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:#62306D;
   }
-  .wrapper {
-    display: grid;
-    position: absolute;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(2, 100px);
+  div{
+    position:absolute;
   }
-  .r {
-    margin: 100px 50px;
-  }
-  .c {
-    margin: 50px;
-  }
-  .rect {
+  .base2 {
+    bottom:0;
+    width: 100px;
+    height: 200px;
     background: #F7EC7D;
   }
-  .circle {
-    width: 60px;
-    height: 60px;
-    background: #E38F66;
-    border-radius: 50%;
-    border: 20px solid #AA445F;
+  .base{
+    bottom: 0;
+    width:100px;
+    height: 100px;
+    background:#F7EC7D;
   }
-  .inverted {
-    background: #AA445F !important;
-    border-color: #E38F66 !important;
+  .base1{
+    left: 50px;
+  }
+  .base3{
+    right: 50px;
+  }
+  .circle2{
+    top:70px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#AA445F;
+    outline:20px solid #E38F66;
+  }
+  .circle{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#E38F66;
+    outline:20px solid #AA445F;
+    top:170px;
+  }
+  .circle1{
+    left:70px;
+  }
+  .circle3{
+    right:70px;
+
   }
 </style>
 ```

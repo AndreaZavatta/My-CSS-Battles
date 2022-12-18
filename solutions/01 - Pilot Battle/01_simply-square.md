@@ -9,9 +9,9 @@
 ```html
 <div></div>
 <style>
-  body {
+  body{
     background: #5d3a3a;
-    margin: 0;
+    margin:0
   }
   div {
     width: 200px;

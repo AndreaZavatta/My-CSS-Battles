@@ -7,30 +7,32 @@
 ![result](./images/07_leafy-trail.png)
 
 ```html
-<div class="a"></div>
-<div class="b"></div>
-<div class="c"></div>
+<div class ="div1"></div>
+<div class ="div2"></div>
+<div class ="div3"></div>
 <style>
-  body {
-    background: #0B2429;
+  body{
+    background:#0B2429;
   }
-  div {
+  div{
+    position: absolute;
     width: 150px;
     height: 150px;
-    border-radius: 67% 0;
-    position: absolute;
+    border-radius: 67% 0%;
+    top:25%;
+
   }
-  .a {
+  .div1{
+    left: 19%;
     background: #1A4341;
-    margin: 67px 67px;
   }
-  .b {
-    background: #998235;
-    margin: 67px 117px;
+  .div2 {
+    left:31%;
+    background: #998235
   }
-  .c {
-    background: #F3AC3C;
-    margin: 67px 167px;
+  .div3 {
+    left:44%;
+    background: #F3AC3C
   }
 </style>
 ```

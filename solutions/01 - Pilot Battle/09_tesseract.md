@@ -7,37 +7,36 @@
 ![result](./images/09_tesseract.png)
 
 ```html
-<div class="rect"></div>
+<div class="back"></div>
 <div class="square"></div>
 <div class="circle"></div>
 <style>
-  body {
+  body{
     background: #222730;
-    margin: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
   div {
-    position: absolute;
+    position:absolute;
   }
-  .rect {
-    background: #4CAAB3;
-    height: 150px;
-    width: 400px;
-    margin: 75px 0;
+  .back{
+    width:100%;
+    height:150px;
+    background:#4CAAB3;
   }
-  .square {
-    background: #4CAAB3;
-    height: 150px;
-    width: 150px;
+  .square{
+    width:150px;
+    height:150px;
+    background:#4CAAB3;
     transform: rotate(45deg);
     outline: 50px solid #222730;
-    margin: 75px 125px;
   }
-  .circle {
-    background: #393E46;
-    width: 50px;
+  .circle{
+    width:50px;
     height: 50px;
-    border-radius: 50%;
-    margin: 125px 175px;
+    background:#393E46;
+    border-radius:50%;
   }
 </style>
 ```

@@ -7,53 +7,75 @@
 ![result](./images/08_forking-crazy.png)
 
 ```html
-<div class="bot"></div>
-<div class="rect"></div>
-<div class="wrapper">
-  <div class="inner"></div>
-  <div class="inner reverse"></div>
-  <div class="inner"></div>
-  <div class="inner reverse"></div>
-  <div class="inner"></div>
-  <div class="inner reverse"></div>
-  <div class="inner"></div>
-</div>
+<div class="base"></div>
+<div class="middle"></div>
+<div class="high high1"></div>
+<div class="high high2"></div>
+<div class="high high3"></div>
+<div class="high high4"></div>
+<div class="inner inner1"></div>
+<div class="inner inner2"></div>
+<div class="inner inner3"></div>
 <style>
-  body {
+  body{
     background: #6592CF;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content:center;
+    align-items:center;
   }
-  div:not(.wrapper):not(.reverse) {
-    background: #060F55;
-  }
-  div:not(.inner):not(.reverse) {
-    position: absolute;
-  }
-  .wrapper {
-    display: flex;
-    bottom: 140px;
-  }
-  .inner {
-    height: 110px;
+  .base{
+    bottom:0;
     width: 20px;
-    border-radius: 20px 20px 0 0;
+    height: 52px;
   }
-  .reverse {
-    transform: scaleY(-1);
-    background: #6592CF;
-  }
-  .bot {
-    height: 100px;
-    width: 140px;
-    border-radius: 0 0 80px 80px;
+  .middle{
     bottom: 50px;
+    width: 140px;
+    height: 100px;
+    border-radius:0 0 70px 70px;
   }
-  .rect {
-    height: 80px;
+  .high{
     width: 20px;
-    bottom: 0;
+    height: 130px;
+    border-radius:70px 70px;
+  }
+  .high1{
+    left:130px;
+    top: 50px;
+  }
+  .high2{
+    left:170px;
+    top: 50px;
+  }
+  .high3{
+    left:210px;
+    top: 50px;
+  }
+  .high4{
+    left:250px;
+    top: 50px;
+  }
+  .inner{
+    width: 20px;
+    height: 110px;
+    border-radius:70px 70px;
+    background: #6592CF;
+  }
+  .inner1{
+    left:150px;
+    top: 50px;
+  }
+  .inner2{
+    left:190px;
+    top: 50px;
+  }
+  .inner3{
+    left:230px;
+    top: 50px;
+  }
+  div {
+    position:absolute;
+    background: #060F55;
   }
 </style>
 ```
