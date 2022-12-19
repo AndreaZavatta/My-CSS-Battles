@@ -22,3 +22,9 @@ Here are my solutions for some problems on [CSS Battle](https://www.cssbattle.de
 
 - [#13 - Totally Triangle](./solutions/02%20-%20Visibility/13_totally-triangle.md)
 - [#14 - Web Maker Logo](./solutions/02%20-%20Visibility/14_web-maker-logo.md)
+- [#15 - Overleap](./solutions/02%20-%20Visibility/15_overleap.md)
+- [#16 - Eye of the tiger](./solutions/02%20-%20Visibility/16_eye-of-the-tiger.md)
+- [#17 - Fidget spinner](./solutions/02%20-%20Visibility/17_fidget-spinner.md)
+- [#18 - Matrix](./solutions/02%20-%20Visibility/18_matrix.md)
+
+## Battle #3 - Cursor
